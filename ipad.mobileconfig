@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>IKEv2</key>
+      <dict>
+        <key>AuthenticationMethod</key>
+        <string>Certificate</string>
+        <key>ChildSecurityAssociationParameters</key>
+        <dict>
+          <key>DiffieHellmanGroup</key>
+          <integer>19</integer>
+          <key>EncryptionAlgorithm</key>
+          <string>AES-256-GCM</string>
+          <key>LifeTimeInMinutes</key>
+          <integer>1410</integer>
+        </dict>
+        <key>DeadPeerDetectionRate</key>
+        <string>Medium</string>
+        <key>DisableRedirect</key>
+        <true/>
+        <key>EnableCertificateRevocationCheck</key>
+        <integer>0</integer>
+        <key>EnablePFS</key>
+        <integer>0</integer>
+        <key>IKESecurityAssociationParameters</key>
+        <dict>
+          <key>DiffieHellmanGroup</key>
+          <integer>19</integer>
+          <key>EncryptionAlgorithm</key>
+          <string>AES-256-GCM</string>
+          <key>IntegrityAlgorithm</key>
+          <string>SHA2-256</string>
+          <key>LifeTimeInMinutes</key>
+          <integer>1410</integer>
+        </dict>
+        <key>LocalIdentifier</key>
+        <string>ipad</string>
+        <key>PayloadCertificateUUID</key>
+        <string>2d5ed20c-2fc1-45ae-b4aa-df6d045bb35a</string>
+        <key>OnDemandEnabled</key>
+        <integer>0</integer>
+        <key>OnDemandRules</key>
+        <array>
+          <dict>
+            <key>InterfaceTypeMatch</key>
+            <string>WiFi</string>
+            <key>URLStringProbe</key>
+            <string>http://captive.apple.com/hotspot-detect.html</string>
+            <key>Action</key>
+            <string>Connect</string>
+          </dict>
+          <dict>
+            <key>InterfaceTypeMatch</key>
+            <string>Cellular</string>
+            <key>Action</key>
+            <string>Disconnect</string>
+          </dict>
+          <dict>
+            <key>Action</key>
+            <string>Ignore</string>
+          </dict>
+        </array>
+        <key>RemoteAddress</key>
+        <string>52.195.145.225</string>
+        <key>RemoteIdentifier</key>
+        <string>52.195.145.225</string>
+        <key>UseConfigurationAttributeInternalIPSubnet</key>
+        <integer>0</integer>
+      </dict>
+      <key>IPv4</key>
+      <dict>
+        <key>OverridePrimary</key>
+        <integer>1</integer>
+      </dict>
+      <key>PayloadDescription</key>
+      <string>Configures VPN settings</string>
+      <key>PayloadDisplayName</key>
+      <string>VPN</string>
+      <key>PayloadOrganization</key>
+      <string>IKEv2 VPN</string>
+      <key>PayloadIdentifier</key>
+      <string>com.apple.vpn.managed.6eb43eda-5094-4f39-9825-d5a2f8d2d263</string>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadUUID</key>
+      <string>c6011144-e876-4e78-bd25-80fe8825e225</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>Proxies</key>
+      <dict>
+        <key>HTTPEnable</key>
+        <integer>0</integer>
+        <key>HTTPSEnable</key>
+        <integer>0</integer>
+      </dict>
+      <key>UserDefinedName</key>
+      <string>52.195.145.225</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+    </dict>
+    <dict>
+      <key>Password</key>
+      <string>UWzpWcmbYrmo27qoug</string>
+      <key>PayloadCertificateFileName</key>
+      <string>ipad</string>
+      <key>PayloadContent</key>
+      <data>
+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
+7FiqwpU0AT5qVpIapvjAgBHUS9znWKx35YOeJUl5/D9xVy4qs/rU
+z8uAniTFXfPwzWfiUDLU6IyoZLMOq+xi34c7kPHbwvWuvoyOq8Cm
+QCLReKxCt0R6bSz0cVzEu34behBuz8jhybphdui+JM4vwz2r6LKG
+PK7fsB2oqVYNYhIWSVWC8oYvVkt+bR/XDOnFud9i7XRrKvM7uSmO
+IwX4h2P6iP8ibeWN6h5CS30GR7ICavMO8QH7Lf6PxT0ltX+ir2uQ
+uNb/nffvYEZAxgLPMX6orE5FX5ggMfBGJJAnYmYQMl615mvMrSdl
+acLK9dmMuUBhMtNn8fF3zBOLpIwb6ZZpTH0dUY0tMqyl0ursfGRN
+NXYvUZYGwDR6LgXt04IIVpuTg0Aw2U00WOaUulmTqogs6rPG8EoW
+Nl+1Ma9krdcrytnYzDaPN9ZUjUvsYIgjwE2JdlxNV1Pwzl+fQcfc
+94Yyk5GI2FFfdMb5Irbj4Djx9UnxSPhiyT4m1dfRcOn0IPBrxg3i
+lKdx2XGQEcKIMDDjgT3+ZyHz+N0Op6gg6qNIGb/VKGJJCz9iHdK9
+Wq121p9KisakS+iT8/LYUiAlxlJ/rwuidZI+Aihi6qaHcDoNGwyI
+JLnz+07Dko0bPPf2UDP+DJyjSPdDMsBCQVlfKYLTyUoz3zu/Ylk7
+CNPt0MqlFmkwggeaBgkqhkiG9w0BBwGgggeLBIIHhzCCB4Mwggd/
+BgsqhkiG9w0BDAoBAqCCBy4wggcqMBwGCiqGSIb3DQEMAQMwDgQI
+ZX4gdQ+jijUCAggABIIHCNS4zYsRu3ZPbh2M1pxUzKUhQiCE4q/X
+CSi52oxfHxlO9kJop8GAmbSqhiprQj39lU8n2Yz6kWrMkHqsWnuD
+7p56U67YrAczDPVWX6NZOkUawhTURl5IYZpbHc12FnPhocLkAmDa
+RyT3WaIKGKqE7CU7EdMBxxBdH56UJShLVCoScXfBoXPk1KgNxKL9
+Ggg82rkaloBpVvMi8T0yhuWZcZxqBROtN+/ZEbj62hB5z9nXJARL
+f5MOISkLpYFWFyfgtRrG2tIyXKstEvqKDnqjUo3eLAwiWOpmYWbq
+Sr37GTDJkEIjWrOdjl2wooyB6QJh4R2TXz3hTjKHoQTtqD/2HMGB
+mAzz3Ko5lC++1jy8fu50dK1vKkX05gxWOvm0z1GPmTjHMv3dfiVV
+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
+A+C0JzSaBAizTKsW63EspAICCAA=
+      </data>
+      <key>PayloadDescription</key>
+      <string>Adds a PKCS#12-formatted certificate</string>
+      <key>PayloadDisplayName</key>
+      <string>ipad</string>
+      <key>PayloadIdentifier</key>
+      <string>com.apple.security.pkcs12.2fd1d9f9-a8b7-4db6-94c5-211d3731cf5d</string>
+      <key>PayloadType</key>
+      <string>com.apple.security.pkcs12</string>
+      <key>PayloadUUID</key>
+      <string>2d5ed20c-2fc1-45ae-b4aa-df6d045bb35a</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+    </dict>
+    <dict>
+      <key>PayloadContent</key>
+      <data>
+MIID5TCCAk2gAwIBAgIFAMHuVI0wDQYJKoZIhvcNAQELBQAwKzEVMBMGA1UEAxMM
+SUtFdjIgVlBOIENBMRIwEAYDVQQKEwlJS0V2MiBWUE4wHhcNMjQwMTIxMTEwMTU5
+WhcNMzQwMTIxMTEwMTU5WjArMRUwEwYDVQQDEwxJS0V2MiBWUE4gQ0ExEjAQBgNV
+BAoTCUlLRXYyIFZQTjCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAMGf
+YLmoQVYlZ0cfguLXdd8iyvAQgjMRIokGIfvEnAY9vTMQzMV5vUZ3uFH1jP95tKPP
+hdmrvoHibrQX5rSPFNIQkKWPQ0N3vR7vVMblR7F9xFm/QifivSNb9QcuWZVWX01L
+PBQIIEFVRA8xr75P9OWiBqPCv0wzcSajN7tfEa6BiWctbvMfZ++9cWDGGsaU8IDR
+Qjd4C2zM1e6DCjt4HLu1Ik4v8GVAIMDV/nIW42jHG6n3yYCHH/tXReHKpeb/pMnm
+6gvq7ZXX7GVpY0rZVEaSHso25x0bOwhFhJAahLNw3as87BTzbT/vkCQWTMjd3oZw
+WEpTRjkgibBAP3s1vECKhBRJFWwwGWyXpZgcNmST36TEAt5tyEpot3lrDXvxuI6k
+vJrDhRETckXLfLAK6lE4fSvwg2K9wvnAZd+wIrlPBxqLZcq6SXJjuryWvDj7pdYC
+7f+9VcvrAQCFEf2M79kX5Pfm1k4pOdomcsvrye/WpYVjmPftbHwHajjkENndFwID
+AQABoxAwDjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBgQCPLCLgUh5Z
+43p6NjLRGfDM8xP/ntwgZFUJJyQhp1XqjENtd9dfWGCSBkVInEwCsP3jalSlmsPT
+xI0HCWXDO3cnTdv2aD1oPcGmOBbgldaEIkJ7NC+qbGV/ZpU/1unkgj/OSA79LlI0
+I3CBOEKtzuSVy3stRN6oRd6QDT8lgkifUgXorv6M31dDTBUo4z1ek9o6CeS/gEYK
+kn5XmqFs/Ak0aXgi/DrscLZGV14x28OjgmdMxs6RBARY8H8TZ+eWWfzeqt/u7Z//
+wp9I3tH8jcH5Wcvk0MvSFtJMzaS+0YL6mhhpCp2ydIPa5TiJFttKiClHEtIHajcI
+ehrh4LfT6F+1xNT/Exb9nhBS5f1NIkdaQBV7CEvoyvKQAi/i/+3W4tn//wQkLWGw
+z3yC2lS2JK9lCVnlpqoz29ZLIh3VnLYgIl72XLvpM1o2C/ZdBmpAhuyyjdOaJQi0
+w3KDBva8UMar95JYFT0cDcbZcCCTdwNkJulW2lDfv3Uw7wX5Ai7wAbk=
+      </data>
+      <key>PayloadCertificateFileName</key>
+      <string>ikev2vpnca</string>
+      <key>PayloadDescription</key>
+      <string>Adds a CA root certificate</string>
+      <key>PayloadDisplayName</key>
+      <string>Certificate Authority (CA)</string>
+      <key>PayloadIdentifier</key>
+      <string>com.apple.security.root.e95c01ea-368f-44f8-98a9-6b7592a5aa63</string>
+      <key>PayloadType</key>
+      <string>com.apple.security.root</string>
+      <key>PayloadUUID</key>
+      <string>06450b0e-eedc-4e0a-9ef2-3ca3e10f9047</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+    </dict>
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>IKEv2 VPN 52.195.145.225</string>
+  <key>PayloadIdentifier</key>
+  <string>com.apple.vpn.managed.44f087f0-9e77-4b74-b3d0-1a9726070ecf</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>b27d92d7-8594-4816-a209-ee8b8c769b6a</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
